@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+.monthevent-container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--gainsboro);
+    background-color: var(--blue);
+    color: var(--black);
+    opacity: 1;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+@media screen and (max-width:576px) {
+    .monthevent-container{
+        display: none;
+    }
+}
